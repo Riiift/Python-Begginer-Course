@@ -21,5 +21,5 @@ lado2 = int(input("ingrese el lado 2:"))
 print("Area", lado1 * lado2 )
 print("Perimetro", 2*lado1 + lado2 )
 
-
-input("Ingrese numero",)
+EJ4
+Numero = input("ingrese Numero")
