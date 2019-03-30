@@ -14,6 +14,8 @@ print("******************************")
 EJ2
 nombre = input("Ingrese su nombre")
 print("mi nombre es:", nombre)
+print("Hola", nombre)
+
 
 EJ3
 lado1 = int(input("ingrese el lado 1:"))
@@ -22,4 +24,4 @@ print("Area", lado1 * lado2 )
 print("Perimetro", 2*lado1 + lado2 )
 
 EJ4
-Numero = input("ingrese Numero")
+Numero = int(input("ingrese Numero"))
