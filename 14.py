@@ -21,7 +21,7 @@ EJ3
 lado1 = int(input("ingrese el lado 1:"))
 lado2 = int(input("ingrese el lado 2:")) 
 print("Area", lado1 * lado2 )
-print("Perimetro", 2*lado1 + lado2 )
+print("Perimetro", 2*lado1 + 2*lado2 )
 
 EJ4
 x = input("Ingrese su numero:")
