@@ -24,4 +24,9 @@ print("Area", lado1 * lado2 )
 print("Perimetro", 2*lado1 + lado2 )
 
 EJ4
-Numero = int(input("ingrese Numero"))
+x = input("Ingrese su numero:")
+b = str(x).split(".")
+parte_entera = int(b[0])
+parte_decimal = int(b[1])
+print ("Parte entera", parte_entera)
+print ("Parte fraccionaria", parte_decimal)
