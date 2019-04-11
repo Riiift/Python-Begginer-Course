@@ -56,5 +56,21 @@ print("El resultuado es:",a2,"-",b2,"-",c2,"-",d2,"-",e2,)
 #-----------------------------------------------------------------------------------------------------
 
 EJ6
+x = float(input("Ingrese base:"))     
+y = float(input("Ingrese altura:"))
+
+import math
+
+Hipotenusa = math.sqrt(math.pow(x, 2) + math.pow(y, 2))
+Area = x*y/2 
+Perimetro = (x+y+Hipotenusa)
+                                
+print("Calculos para un triangulo rectangulo de base",x,"y de altura",y,":\n")
+print("<<< Area={:.2f}>>>  <<< Perimetro:{:.2f}>>>".format(Area,Perimetro))
+#-----------------------------------------------------------------------------------------------------
+
+EJ7
+
+
 
 
