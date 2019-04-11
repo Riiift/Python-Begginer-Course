@@ -67,9 +67,24 @@ Perimetro = (x+y+Hipotenusa)
                                 
 print("Calculos para un triangulo rectangulo de base",x,"y de altura",y,":\n")
 print("<<< Area={:.2f}>>>  <<< Perimetro:{:.2f}>>>".format(Area,Perimetro))
+
 #-----------------------------------------------------------------------------------------------------
 
 EJ7
+
+num1 = int(input("Ingrese el primer numero:"))
+num2 = int(input("Ingrese el segundo numero:"))
+
+num1a= num1 % 10
+num2a= (num2//10)%10
+
+
+print("\n","El numero resultante es :", num1a+(num2a*10),)
+
+#-----------------------------------------------------------------------------------------------------
+
+EJ8
+
 
 
 
