@@ -85,6 +85,26 @@ print("\n","El numero resultante es :", num1a+(num2a*10),)
 
 EJ8
 
+num = int(input("Ingrese tiempo en segundos:"))
+
+Dias = int(86400)
+Horas = int(3600)
+Minutos = int(60)
+Segundos = int(1)
+
+Rdias = num//Dias
+Rhoras = (num%Dias)//Horas
+Rminutos = (num%Horas)//Minutos
+Rsegundos = (num%Minutos)//Segundos
+
+print(Rdias,"dias(s)",Rhoras,"Hora(s)",Rminutos,"Minuto(s)",Rsegundos,"segundo(s)")
+
+#-------------------------------------------------------------------------------------------------------
+
+EJ9
+
+
+
 
 
 
