@@ -104,7 +104,6 @@ print(Rdias,"dias(s)",Rhoras,"Hora(s)",Rminutos,"Minuto(s)",Rsegundos,"segundo(s
 EJ9
 
 num = input("Ingrese numero de cantidad impar de cifras(al menos 3 cifras): ")
-
 cifras = len(num)
 
 
