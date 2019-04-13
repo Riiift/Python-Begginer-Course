@@ -19,7 +19,7 @@ def main():
     
     resultado= areadeltriangulo (lado1,lado2,lado3)
     
-    print("El area es: {:.2f}".format(resultado))
+    print("El area es: {:.2f}".format(resultado)) #*PREGUNTAR*¨LO DE .2F
     
 main()
 #-----------------------------------------------------------------------------------------------------
@@ -27,17 +27,28 @@ main()
 EJ2
 import math
 
-def raiz():
+def raiz(r,i):
     
-    raiz =int(a//a)
+    calculoraiz = math.pow(r, 1/i)
+    
+    return calculoraiz
         
 def main():
-        
+    
+    radicando=float(input("Ingrese el redicando (numero real): "))
+    indice=int(input("Ingrese el indice (numero natural): "))
+    
+    resultado= raiz(radicando, indice)
+    
+    print("La raiz de indice: {} y de radicando: {} es: {:.2f} ".format(indice,radicando,resultado))
+           
 main()
 
-
-
-
+#-----------------------------------------------------------------------------------------------------
+EJ3
+numbinario=input("Ingrese un numero de binario de hasta 8 bits: ")
+#-----------------------------------------------------------------------------------------------------
+EJ6
 import random
 
 def azar():
