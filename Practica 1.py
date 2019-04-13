@@ -135,5 +135,15 @@ print("Numero decimal:",bit1+bit2+bit3+bit4+bit5)
 
 EJ11
 
+num= int(input("Ingrese un numero decimal (maximo 5 cifras):"))
+
+e= (num % 8)
+d= (num//8)%8
+c= (((num//8)//8)%8)
+b= (((((num//8)//8)//8)%8))
+a= ((((((num//8)//8)//8)//8)%8))
+
+print()
+print("Numero en octal :",a,b,c,d,e)
 #---------------------------------------------------------------------------------------------------------------------------------------
                                                                   ANEXO
