@@ -103,23 +103,23 @@ print(Rdias,"dias(s)",Rhoras,"Hora(s)",Rminutos,"Minuto(s)",Rsegundos,"segundo(s
 
 EJ9
 num = input("Ingrese numero de cantidad impar de cifras(al menos 3 cifras): ")
-
 cifras = len(num)
-
 numint = int(num)
-primera = (numint//10**(cifras-1)%10
-mediana =
-ultima = 
-central =
+primera = (numint//10**(cifras-1))%10
+mediana = (cifras+1)//2
+ultima = numint%10
+central = (numint //10**(mediana-1))%10
 
-
-
-print("El numero ingresado tiene", cifras)
-print("la primera cifra es: {}, La ultima cifra es: {}, La cifra de la mitad es: {}.".format(cifras,ultima,central)
+print()
+print("El numero ingresado tiene",cifras, "cifras")
+print()
+print("la primera cifra es: {}, La ultima cifra es: {}, La cifra de la mitad es: {}.".format(primera,ultima,central))
       
 #-------------------------------------------------------------------------------------------------------------------
 
 EJ10
+num = int(input("Ingrese numero decimal (maximo 5 bits):"))
+x = 
       
 
 
