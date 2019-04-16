@@ -49,6 +49,7 @@ EJ3
 numbinario=input("Ingrese un numero de binario de hasta 8 bits: ")
 #-----------------------------------------------------------------------------------------------------
 EJ6
+
 import random
 
 def azar(v,t):
@@ -79,7 +80,7 @@ def main():
     bebidarand=azar(e,d)*e
   
     print()
-    print('cena al azar:" {0!s}{1!s}, {2!s}{3!s} y {4!s}{5!s}'.format(vestrana,vestranb,paltoranc,paltorand,bebidarane,bebidarand))
+    print('Cena al azar: {0!s:}{1!s:}, {2!s}{3!s} y {4!s}{5!s}'.format(vestrana,vestranb,paltoranc,paltorand,bebidarane,bebidarand))
 
        
 main()
