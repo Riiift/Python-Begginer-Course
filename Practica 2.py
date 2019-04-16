@@ -51,9 +51,9 @@ numbinario=input("Ingrese un numero de binario de hasta 8 bits: ")
 EJ6
 import random
 
-def azar(x,y):
+def azar(v,t):
     
-    randomgenrator=random.randint(x,y)
+    randomgenrator=random.randint(0,1)
            
     return randomgenrator
 
@@ -66,12 +66,20 @@ def main():
     e=input("Ingrese alternativa 1 para bebida:")
     f=input("Ingrese alternativa 2 para bebida:")
     
-    vestran=azar(a,b)
-    paltoran=azar(c,d)
-    bebidaran=azar(e,d)
+    #ropa
+    vestrana=azar(a,b)*b
+    vestranb=azar(a,b)*a
     
+    #plato
+    paltoranc=azar(c,d)*d
+    paltorand=azar(c,d)*c
+    
+    #bebida
+    bebidarane=azar(e,d)*d
+    bebidarand=azar(e,d)*e
+  
     print()
-    print("cena al alazar: {}, {} y {}".format())
+    print('cena al azar:" {0!s}{1!s}, {2!s}{3s!} y {4!s}{5!s}'.format(vestrana,vestranb,paltoranc,paltorand,bebidarane,bebidarand))
 
        
 main()
