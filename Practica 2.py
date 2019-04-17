@@ -136,5 +136,49 @@ def main():
 
        
 main()
+
 #-------------------------------------------------------------------------------------------------------------------------------------
+
 EJ7
+
+def justificado(x,a):
+    
+    espacio = (x)*a
+    
+    return espacio
+
+def main():
+
+    frase = input("Ingrese la frase:" )
+    ancho = int(input("Ingrese el ancho total a ser usado:" ))
+    
+    Justif= justificado(' ', ancho-2)
+
+    print ("'{0!s}{1!s}'".format(Justif,frase))
+
+main()
+
+#-------------------------------------------------------------------------------------------------------------------------------------
+
+EJ8 
+
+def crearfila(y):
+   
+    cantidadancho = ("*")*y + ("\n")
+     
+    return cantidadancho
+    
+def crearRectangulo(z,h):
+    
+    cantidadaltoyancho= crearfila(z)*h
+    
+    return cantidadaltoyancho
+    
+def main():
+    
+    ancho= int(input('Ingrese Ancho: '))
+    alto= int(input('Ingrese Alto: '))
+
+    print(crearRectangulo(ancho,alto))
+                  
+main()
