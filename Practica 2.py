@@ -46,7 +46,57 @@ main()
 
 #-----------------------------------------------------------------------------------------------------
 EJ3
-numbinario=input("Ingrese un numero de binario de hasta 8 bits: ")
+
+def pariedad(a,b,c,d,e,f,g,h):
+    
+    suma=(a+b+c+d+e+f+g+h)
+    modulo=suma%2
+    
+    return modulo
+
+def main():
+    
+    numbinario = int(input("Ingrese un numero de binario de hasta 8 bits: "))
+
+    h=numbinario%10
+    g=(numbinario//10)%10
+    f=(numbinario//100)%10
+    e=(numbinario//1000)%10
+    d=(numbinario//10000)%10
+    c=(numbinario//100000)%10
+    b=(numbinario//1000000)%10
+    a=(numbinario//10000000)%10
+    
+    pariedadresult=pariedad(a,b,c,d,e,f,g,h)
+    
+    print("Bit de paridad generado :",pari)
+    
+main()
+
+#-----------------------------------------------------------------------------------------------------
+EJ5
+import random
+
+def lim(input1, input2):
+
+    Rnum = random.randint(input1, input2)
+    return Rnum 
+
+def main ():
+
+    liminferior = (int(input("Ingrese el limite inferiror: ")))
+    limsuperior = (int(input("Ingrese el limite superior: ")))
+
+    limx = lim(liminferior, limsuperior)
+    limy = lim(liminferior, limsuperior)
+    limz = lim(limx, limy)
+
+    print()
+    print(("1-limite inferior {} limite superior {} numero generado:{}").format(liminferior,limsuperior,limx))
+    print(("2-limite inferior {} limite superior {} numero generado:{}").format(liminferior,limsuperior,limy))
+    print(("3-limite inferior {} limite superior {} numero generado:{}").format(limx,limy,limz))
+ 
+main ()
 #-----------------------------------------------------------------------------------------------------
 EJ6
 
