@@ -120,22 +120,19 @@ def main():
     e=input("Ingrese alternativa 1 para bebida:")
     f=input("Ingrese alternativa 2 para bebida:")
     
-    #ropa
-    vestrana=azar(a,b)*b
-    vestranb=azar(a,b)*a
+
+    vestrana= azar(a,b)*b
+    vestranb= azar(a,b)*a
+
+    paltoranc= azar(c,d)*d
+    paltorand= azar(c,d)*c
     
-    #plato
-    paltoranc=azar(c,d)*d
-    paltorand=azar(c,d)*c
-    
-    #bebida
-    bebidarane=azar(e,d)*d
-    bebidarand=azar(e,d)*e
+    bebidarane= azar(e,f)*e
+    bebidaranf= azar(e,f)*f
   
     print()
-    print('Cena al azar: {0!s:}{1!s:}, {2!s}{3!s} y {4!s}{5!s}'.format(vestrana,vestranb,paltoranc,paltorand,bebidarane,bebidarand))
-
-       
+    print('Cena al azar: {0!s:}{1!s:}, {2!s}{3!s} y {4!s}{5!s}'.format(vestrana,vestranb,paltoranc,paltorand,bebidarane,bebidaranf))
+    
 main()
 
 #-------------------------------------------------------------------------------------------------------------------------------------
