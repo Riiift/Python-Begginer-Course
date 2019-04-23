@@ -110,7 +110,7 @@ EJ6
 
 import random
 
-def azar(v,t):
+def azar():
     
     randomgenrator=random.randint(0,1)
            
@@ -125,18 +125,16 @@ def main():
     e=input("Ingrese alternativa 1 para bebida:")
     f=input("Ingrese alternativa 2 para bebida:")
     
+    s1 = azar()
+    s2 = azar()
+    s3 = azar()
 
-    vestrana= azar(a,b)*b
-    vestranb= azar(a,b)*a
-
-    paltoranc= azar(c,d)*d
-    paltorand= azar(c,d)*c
-    
-    bebidarane= azar(e,f)*e
-    bebidaranf= azar(e,f)*f
+    vestimenta = s1*a + b*(1 - s1)
+    plato = s2*c + d*(1 - s2)
+    bebida = s3*e + f*(1 - s3)
   
     print()
-    print('Cena al azar: {0!s:}{1!s:}, {2!s}{3!s} y {4!s}{5!s}'.format(vestrana,vestranb,paltoranc,paltorand,bebidarane,bebidaranf))
+    print('Cena alazar: {0!s:} , {1!s:} y {2!s:}'.format(vestimenta,plato,bebida))
     
 main()
 
