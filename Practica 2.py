@@ -46,10 +46,6 @@ main()
 
 #-----------------------------------------------------------------------------------------------------
 
-EJ4
-
-#-----------------------------------------------------------------------------------------------------
-
 EJ3
 
 def pariedad(a,b,c,d,e,f,g,h):
@@ -77,6 +73,45 @@ def main():
     print("Bit de paridad generado :",pari)
     
 main()
+
+#-----------------------------------------------------------------------------------------------------
+
+EJ4
+
+import math
+
+def areaCirc(d):
+    
+    diametro=d
+    radio= diametro/2
+    area= math.pi*radio**2
+    
+    return area
+
+def areaCuad(lado):
+    
+    ac= lado*lado
+    
+    return ac
+
+def areaNegra(lado):
+    
+    areablanca=areaCirc(8) + areaCirc(4) + areaCirc(4)    
+    areaNegra= areaCuad(lado) - areablanca
+    
+    return areaNegra
+
+def main():
+    
+    lado= float(input("ingrese el lado: "))
+              
+    an= areaNegra(lado)
+    poran= an*100/areaCuad(lado)
+              
+    print("El area negra es {:.2f} y es un {:.2f}% del area total del cuadrado".format(an,poran))
+    
+main()
+
 
 #-----------------------------------------------------------------------------------------------------
 EJ5
