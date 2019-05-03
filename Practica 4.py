@@ -29,4 +29,20 @@ while num > 0:
 
 while num == 0
 print("El mayor es {} y el menor {}".format())
+#----------------------------------------------------------------------------------------------------------------------------------
 
+EJ3
+
+def primidad():
+    cant = input("Ingrese cantidad numero natural:" )
+    if num%num == 1 or num%1 == num:
+        
+        
+        
+        
+    
+    
+       if num in range(1, num)
+       print("Primos entre:" end"" /t )
+   
+main()
