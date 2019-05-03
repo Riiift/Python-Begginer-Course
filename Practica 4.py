@@ -15,5 +15,18 @@ if num%2 == 0 :
     
     if num%4 == 0:
         print("Numero par.Tambien es multiplo de '4'. Total de numeros ingresados {}".format(cont))
- 
+        
+#----------------------------------------------------------------------------------------------------------------------------------
+
+EJ2 
+
+num = int(input("Ingrese numeros enteros positivos (finalice con 0)"))
+
+while num > 0:
+    cont+=1
+    
+
+
+while num == 0
+print("El mayor es {} y el menor {}".format())
 
