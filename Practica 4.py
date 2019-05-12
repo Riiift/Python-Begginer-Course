@@ -58,16 +58,27 @@ main()
 
 EJ3
 
-def primidad():
-    cant = input("Ingrese cantidad numero natural:" )
-    if num%num == 1 or num%1 == num:
-        
-        
-        
-        
+def primo (n):
     
+    cont=0
     
-       if num in range(1, num)
-       print("Primos entre:" end"" /t )
-   
+    for i in range (1, n+1):
+        if n%i == 0:
+            cont+=1
+            
+    if cont == 2:
+        cumple = True
+    else:
+        cumple = False
+          
+    return cumple
+
+def main ():
+    
+    hasta= int(input("Ingrese Numero: "))
+    
+    for num in range (hasta+1):
+        if primo(num) == True:
+            print (num,  end='  ')
+               
 main()
