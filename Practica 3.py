@@ -3,3 +3,32 @@
 
 EJ1 
 
+def caculadora(n1,n2,ope):
+        
+    if ope == "+":
+        resultado= n1 + n2
+        
+    elif ope == "-":
+        resultado= n1 - n2
+        
+    elif ope == "*":
+        resultado= n1*n2
+        
+    elif ope == "/":    
+        resultado= n1/n2
+    
+    return resultado
+
+def main():
+    
+    num1 = float(input("Ingrese el primer numero: "))
+    num2 = float(input("Ingrese el primer numero: "))
+    ope = (input("Ingrese la operacion(+,-,*,/): "))
+    resultadoopera= caculadora(num1,num2,ope)
+    print("{}".format(resultadoopera))
+
+main()
+
+#---------------------------------------------------------------------------------------------------------------------------------------
+
+EJ2
