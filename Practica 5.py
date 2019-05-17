@@ -1,18 +1,18 @@
 def divisor(palabra):
     
-    while len(palabra) > 2:
-       restador=[0:len(palabra)] - [len(palabra):2]
+    if len(palabra) >= 2:
+        long= len(palabra)
+        pal= palabra
+        ult_dig=palabra[(long-2):long]
+        x=ult_dig*3
+        return x
     
-    
-    
-    
-    
-    
-    else len(palabras) < 1:
+          
+    else:
         print ("la funcion ha retornado palabra vacia.")
         
 def main():
-    palabra = input("ingrese palabra: ")
+    palabra = input("Ingrese Palabra: ")
     palabra_div= divisor(palabra)
     print("la funcion ha retornado: {} ".format(palabra_div))
 main()
