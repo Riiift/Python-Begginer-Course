@@ -22,5 +22,22 @@ def main():
     print("la funcion ha retornado: {} ".format(palabra_div))
 main()
 
-#------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------
 EJ2
+
+def concatinador(extremos,palabra):
+    
+    long_extr= len(extremos)
+    long_pal= len(palabra)
+    e=extremos
+    p=palabra
+    
+    
+
+
+def main():
+    extremos = input("Ingrese extremos: ")
+    palabra = input("Ingrese Palabra: ")
+    
+    print("la funcion ha retornado: {} ".format())
+main()
