@@ -32,3 +32,24 @@ main()
 #---------------------------------------------------------------------------------------------------------------------------------------
 
 EJ2
+
+#---------------------------------------------------------------------------------------------------------------------------------------
+
+EJ3
+ef clasi(num):
+    
+    if num=(0):
+        print ("El numero es cero y entero")
+        if num >0:
+            print ("El numero es positivo y entero")
+        if num>0 and num in range (1, 9 ):
+            print("El numero es positivo y entero natural")
+        if num<0:
+            print ("El numero es negativo y entero")
+    
+def main():
+    num=input("Ingrese numero: ")
+    clasi(num)
+    
+    
+main()
