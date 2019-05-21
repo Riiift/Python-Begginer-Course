@@ -53,3 +53,49 @@ def main():
     
     
 main()
+def verificador(a,b):
+    if a<b:
+        may=b
+        men=a
+    elif a>b:
+        may=a
+        men=b
+        
+        resta= may-men
+            if resta<may and resta>men
+                return True
+            else:
+                return False
+#---------------------------------------------------------------------------------------------------------------------------------------
+EJ4
+
+def main ():
+    num_a= int(input("ingrese nuemro A: " ))
+    num_b= int(input("ingrese nuemro B: " ))
+    if verificador(num_a,num_b)== True:
+        print ("SI cumple con la funcion")
+    else:
+        print("NO cumple con la funcion")
+main()
+#---------------------------------------------------------------------------------------------------------------------------------------
+
+EJ5
+
+def bisiesto(d,m,a):
+    
+    if (d <=30 and d>=1 ) and (m<=12 and m>=1):
+        if a=a%4 and not a
+    
+        return True
+    else
+        return False
+    
+
+
+def main():
+    dia=int(input("Ingrese dia"))
+    mes=int(input("Ingrese mes"))
+    año=int(input("Ingrese año"))
+    checkeo=bisiesto(dia,mes,año)
+    
+main()
