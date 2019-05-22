@@ -36,36 +36,35 @@ EJ2
 #---------------------------------------------------------------------------------------------------------------------------------------
 
 EJ3
-ef clasi(num):
+
+def positivo_negativo(n):
+    if(n>0):
+        r="Positivo"
+    elif n<0:
+        r="Negativo"
+    else:
+        r="Cero es"
     
-    if num=(0):
-        print ("El numero es cero y entero")
-        if num >0:
-            print ("El numero es positivo y entero")
-        if num>0 and num in range (1, 9 ):
-            print("El numero es positivo y entero natural")
-        if num<0:
-            print ("El numero es negativo y entero")
-    
+    return r
+
+def entero(n):
+    if(n%1==0):
+        if (n>0) and (n<=9):
+            r="Entero Natural"
+        else:
+            r="Entero"
+    else:
+        r="real"
+    return r
+
 def main():
-    num=input("Ingrese numero: ")
-    clasi(num)
-    
-    
+    num=float(input("Ingrese un numero: "))
+    pos_neg= positivo_negativo(num)
+    num_entero= entero(num)
+    print("El numero es {} {}".format(pos_neg,num_entero))
 main()
-def verificador(a,b):
-    if a<b:
-        may=b
-        men=a
-    elif a>b:
-        may=a
-        men=b
-        
-        resta= may-men
-            if resta<may and resta>men
-                return True
-            else:
-                return False
+
+
 #---------------------------------------------------------------------------------------------------------------------------------------
 EJ4
 
