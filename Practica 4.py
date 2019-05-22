@@ -82,3 +82,34 @@ def main ():
             print (num,  end='  ')
                
 main()
+#----------------------------------------------------------------------------------------------------------------------------------
+
+EJ4
+def perfecto(n):
+    
+    i=1
+    perfecto=0
+    
+    while n>i:
+        if n%i==0:
+            perfecto+=i
+        i+=1
+        
+    if n==perfecto:
+        return True
+
+    else:
+        return False
+
+def main():
+    
+    cont=0
+    j=1
+    
+    while cont<10:
+        if perfecto(j):
+            print(j, end=" ")
+            cont+=1
+        j+=1
+    
+main()
