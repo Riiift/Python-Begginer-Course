@@ -41,3 +41,18 @@ def main():
     
     print("la funcion ha retornado: {} ".format())
 main()
+#--------------------------------------------------------------------------------------------------------------------
+EJ3
+
+def primerMitad(s):
+    div=s[:(len(s)//2)]
+    return div
+
+def main():
+    pal=input("Ingrese palabra par:")
+ while len(pal)%2==1:
+    input("ERROR.Ingrese una palabra par, porfavor:")
+    while len(pal)%2==0:
+        print("La funcion ha retornado:",primerMitad(pal))    
+        
+main()
