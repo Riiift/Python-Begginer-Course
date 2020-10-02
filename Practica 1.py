@@ -1,21 +1,7 @@
                                                               PRACTICA N°1
-#---------------------------------------------------------------------------------------------------------------------------------------
+
 
 EJ1
-print("******************************")
-print("*     pppppppppppppppp       *")
-print("*   pp                PP     *")
-print("*  pp    ---   ---     PP    *")
-print("* pp     O      o       PP   *")
-print("*pp                     PP   *")
-print("* pp         <          pp   *")
-print("* pp     ---------     pp    *")
-print("*   pp                pp     *") 
-print("*      pp pp pp pp pp        *") 
-print("******************************")
-#-----------------------------------------------------------------------------------------------------
-
-EJ2
 nombre = input("Ingrese su nombre")
 print("mi nombre es:", nombre)
 print("Hola", nombre)
